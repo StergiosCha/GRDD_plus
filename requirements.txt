@@ -1,0 +1,15 @@
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+peft>=0.4.0
+accelerate>=0.21.0
+bitsandbytes>=0.41.0
+scikit-learn
+pandas
+numpy
+tqdm
+wandb
+python-dotenv
+fire
+sentencepiece
+protobuf
