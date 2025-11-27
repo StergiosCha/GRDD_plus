@@ -1,5 +1,7 @@
 # GRDD+: An Extended Greek Dialectal Dataset with Cross-Architecture Fine-tuning Evaluation
 
+**Authors:** Stergios Chatzikyriakidis, Dimitris Papadakis, Sevasti-Ioanna Papaioannou, Erofili Psaltaki
+
 This repository contains the dataset and code for the paper **"GRDD+: An Extended Greek Dialectal Dataset with Cross-Architecture Fine-tuning Evaluation"** ([arXiv:2511.03772](https://arxiv.org/abs/2511.03772)).
 
 ## Abstract
@@ -57,7 +59,7 @@ The training scripts in `src/` allow for reproducing these experiments.
 
 ```bibtex
 @misc{2511.03772,
-Author = {Stergios Chatzikyriakidis},
+Author = {Stergios Chatzikyriakidis and Dimitris Papadakis and Sevasti-Ioanna Papaioannou and Erofili Psaltaki},
 Title = {GRDD+: An Extended Greek Dialectal Dataset with Cross-Architecture Fine-tuning Evaluation},
 Year = {2025},
 Eprint = {arXiv:2511.03772},
