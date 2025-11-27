@@ -45,7 +45,7 @@ def main():
         "ilsp/Llama-Krikri-8B-Base",
         torch_dtype=torch.bfloat16,
         device_map="auto",
-        token="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",
+        token="",
         low_cpu_mem_usage=True
     )
     
@@ -64,7 +64,7 @@ def main():
     model = get_peft_model(base_model, lora_config)
     model.print_trainable_parameters()
     
-    tokenizer = AutoTokenizer.from_pretrained("ilsp/Llama-Krikri-8B-Base", token="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")
+    tokenizer = AutoTokenizer.from_pretrained("ilsp/Llama-Krikri-8B-Base", token="")
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     
