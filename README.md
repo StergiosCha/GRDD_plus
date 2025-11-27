@@ -11,6 +11,7 @@ We present an extended Greek Dialectal Dataset (GRDD+) that complements the exis
 ```
 GRDD-Plus/
 ├── data/               # Data files
+│   └── fine-tuning/    # Fine-tuning datasets
 ├── src/                # Source code
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
